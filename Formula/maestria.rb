@@ -3,30 +3,30 @@ class Maestria < Formula
 
   desc "Self-hosted control panel and Maestro protocol CLI for Maestri workspaces"
   homepage "https://github.com/#{REPO}"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/#{REPO}/releases/download/v#{version}/maestria_#{version}_darwin_arm64.tar.gz"
-      sha256 "b81c1b58bb5c367b0ee185f6a0bea4a9d07749ab3f5b8f99063aaee5095ed582"
+      sha256 "34990d9081c6853a877463d1e15585d8309b75c9704ce241765ae44c6b7c5bcd"
     end
 
     on_intel do
       url "https://github.com/#{REPO}/releases/download/v#{version}/maestria_#{version}_darwin_amd64.tar.gz"
-      sha256 "66a12b434d5f8e39ff7e14abb5a22d3d560a122906e3a6e55a48169c23599ede"
+      sha256 "9f923928844b66db439e1d902d0e7dac9d9e7aa62bffb84080af87ea13e6d2d8"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/#{REPO}/releases/download/v#{version}/maestria_#{version}_linux_arm64.tar.gz"
-      sha256 "8f81c5d6ea9e3ea461eb05cb971e119eac9efc82cdfef1e4e07cf15867633bce"
+      sha256 "f6b8ae8f94fa1ec1ac395b1ae1b3c90af867ecf0984ea9d02ed886d06b1e9ae6"
     end
 
     on_intel do
       url "https://github.com/#{REPO}/releases/download/v#{version}/maestria_#{version}_linux_amd64.tar.gz"
-      sha256 "dd43ce470b89425d202e8bc4c05a10f4d3b366f6e7e50dfa84c2185b5fbeeab4"
+      sha256 "2bff533da7f7fa3f0679ab3cbb80b2e7972a9a5132dbeb7011e87a79c1fffa5b"
     end
   end
 
